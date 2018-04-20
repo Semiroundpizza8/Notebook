@@ -141,4 +141,20 @@ Contains information such as...
 ### Gas
 * Every step of a program costs gas.
 * Code that is run via transaction.
-* 
+* Remix.etherium.org
+
+* Etherium is written as a spec, making it mutable
+* Bitcoin, on the other hand, is a lot more strict
+
+#### Byzentine Fault Tolorence
+* Can have N number of malicious nodes, and network will still maintain integrity
+
+* ENCRYPTION IS NOT HASHING, AND HASHING IS NOT ENCRYPTION
+
+#### ZK-Snark
+* Allows you to show you have ownership of a computer
+* Zero Knowledge proof, demonstrate that you own a computer without having to give away your password, similar to O-Auth
+
+#### ECC
+#### ECDSA
+  * Key, built from eliptic curve problem.
