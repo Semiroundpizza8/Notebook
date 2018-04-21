@@ -217,3 +217,10 @@ Data privacy, however, is still nascent tech.
 
 Dev@blockchainspaceman.com
 312 823 2184
+
+# Day 2
+# Intro to Smart Contracts
+## ERC 20
+* spec for how a token should work
+## Solidity
+See MhubCoin.sol
