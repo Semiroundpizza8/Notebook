@@ -158,3 +158,62 @@ Contains information such as...
 #### ECC
 #### ECDSA
   * Key, built from eliptic curve problem.
+
+# Healthcare Application for Blockchain Tech
+## How do we protect privacy with blockchain systems?
+Security is strong, based around who can modify a ledger. Cornerstone of blockchain tech.
+Data privacy, however, is still nascent tech.
+
+### Consortium Chains
+* Multiple companies maintain a blockchain with privacy.
+* Members sign traditional legal contracts for enforcement.
+* Software runs a modified blockchain stack with fewer security guarentees in exchange for higher performance.
+
+* Smart contracts are difficult to debug due to security concerns.
+
+### USe cases in medicine
+* Real time diagnostics
+* Containerization of Enterprise Hospital Softare
+* and...
+  * Non HIPAA Data Markets
+  * Massaging clinical data for Machine Learning
+  * Pharmaceutical supply chain tracking
+  * and...
+    * Credential/Lecense Tracking
+    * Point of Care Patient Incentive System
+    * Standard of Care Protocol Authoring
+    * Equipment Inspections
+
+# Lung Cancer Screening
+## Why a blockchain?
+* Lack of cheap, good software to track patients
+* Bridge communication gap
+* Makes organizing sign-ups easier
+* Incentivising patients to train ML machine with tokens. <----- Idea?
+
+#Qtum basics
+## Alternative to Etherium for smart contracts
+* Account abstraction layer on top of fork of bitcoin core
+* UTXO model scalability, with Etherium style contracts
+* AAL allows for plug and play VMs
+* X86 VM allows smart contracts to be written in any X86 compilable language
+* All proof of stake
+
+# Identity
+## Holy Grail of Blockchain Technology
+
+## Sovrin
+* Basically a giant DNS for DIDs
+* Validator + Observer Nodes
+  * Access is exclusive to the service it's on, login has no chance of being used anywhere else.
+### DID Keyring Analogy
+* DID work as a keyring, where you can add individual keys.
+* If anything happens to that company, your login info isn't compromised, as it can't be used anywhere else.
+
+## UPort
+* Built on top of etherium blockchain
+* A complete digital representation of a person
+* If you lose your key, your identity will be controlled by a smart contract that could recover your key based on some higher logic.
+
+Dev@blockchainspaceman.com
+312 823 2184
