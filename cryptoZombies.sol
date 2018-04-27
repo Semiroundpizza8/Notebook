@@ -47,7 +47,7 @@ contract ZombieFactory {
 //   var name = $("#nameInput").val()
 //   // Call our contract's `createRandomZombie` function:
 //   ZombieFactory.createRandomZombie(name)
-// })
+// })   s
 
 // // Listen for the `NewZombie` event, and update the UI
 // var event = ZombieFactory.NewZombie(function(error, result) {
