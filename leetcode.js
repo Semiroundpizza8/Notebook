@@ -118,3 +118,24 @@ var singleNumber = function(nums) {
   }
   return nums[0];
 };
+
+// var singleNumber = (nums) => nums.reduce((a, b) => a^b) This is a thing?
+
+/*-------------------
+TwoSum
+--------------------*/
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+  let i=0
+  let cache = {};
+  while(i < nums.length) {
+      let numNeeded = target - nums[i];
+      if(cache[numNeeded] !== undefined) return [cache[numNeeded], i];
+      else cache[nums[i]] = i++;
+  }
+  return -1;
+};
