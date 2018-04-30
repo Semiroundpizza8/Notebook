@@ -20,63 +20,6 @@ Max Profits
  * @param {number[]} prices
  * @return {number}
  */
-// var maxProfit = function(prices) {
-//     let total = 0;
-//     let currentTrend = 0;
-//     for(var i=0; i<prices.length; i++) {
-//         // Looking to Buy
-//         if(prices[i] < prices[i + 1]) {
-//             currentTrend = prices[i];
-//         }
-
-//         // Looking to Sell
-//         else if(prices[i] > [prices[i + 1]] && currentTrend) {
-//             total += prices[i] - currentTrend;
-//             currentTrend = 0;
-//         }
-//     }
-//     return total;
-// };
-
-// var maxProfit = function(prices) {
-//     for(var i=0; i<prices.length; i++) {
-//         if(prices[i] < prices[i + 1]) {
-//             prices[i] = prices[i+1] - prices[i];
-//         }
-//         else {
-//             prices[i] = 0;
-//         }
-//     }
-//     return prices.reduce((a, b) => a + b);
-// };
-
-// var maxProfit = function (prices) {
-//   let total = 0;
-//   for (var i = 0; i < prices.length; i++) {
-//     if (prices[i] < prices[i + 1]) {
-//       total += prices[i + 1] - prices[i];
-//     }
-//   }
-//   return total;
-// };
-
-// var maxProfit = function (prices) {
-//   let sum = 0;
-//   for (let I = 0; I < prices.length - 1; I++) {
-//     if (prices[I] < prices[I + 1]) { sum += prices[I + 1] - prices[I]; }
-//   }
-//   return sum;
-// };
-
-// var maxProfit = function (prices) {
-//   let max = 0;
-//   for (let i = 1; i < prices.length; i++) {
-//     if (prices[i] > prices[i - 1]) {
-//       max += prices[i] - prices[i - 1];
-//     }
-//   }
-//   return max;
-// };
 
 var maxProfit = function (prices) {
   let total = 0;
@@ -119,10 +62,29 @@ var singleNumber = function(nums) {
   return nums[0];
 };
 
-// var singleNumber = (nums) => nums.reduce((a, b) => a^b) This is a thing?
+/*-------------------
+Move Zeroes
+--------------------*/
+/**
+ * @param {number[]} nums
+ * @return {void} Do not return anything, modify nums in-place instead.
+ */
+var moveZeroes = function(nums) {
+  let endOfArr = nums.length;
+  let i = 0;
+  while(i < endOfArr) {
+      if(nums[i] === 0) {
+          nums.push(...nums.splice(i, 1));
+          endOfArr--;
+      }
+      else {
+          i++;
+      }
+  }
+};
 
 /*-------------------
-TwoSum
+Two Sum
 --------------------*/
 /**
  * @param {number[]} nums
