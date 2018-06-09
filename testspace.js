@@ -34,4 +34,4 @@ console.log(pairSum(testArr, 5)) // true
 console.log(pairSum(testArr, 10)) // true
 console.log(pairSum(testArr, 2)) // false
 console.log(pairSum(testArr, 8)) // false
-console.log(pairSum(testArr, 16)) // true  
+console.log(pairSum(testArr, 16)) // true    
